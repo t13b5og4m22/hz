@@ -1,0 +1,201 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #f4f4f2;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left h2 {
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.left .links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.left .links .link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.left .links .link a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+
+}
+
+.left .links .link img {
+    width: 32px;
+    height: 32px;
+}
+
+.right h2 {
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.right .table {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.right .table .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .table .row .el {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+    background: white;
+    text-align: center;
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+
+.right .table .row .el .image {
+    height: 250px;
+    width: 100%;
+}
+
+.right .table .row .el .image1 {
+    background: url('img/index1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image2 {
+    background: url('img/index2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image3 {
+    background: url('img/index3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image4 {
+    background: url('img/index4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image5 {
+    background: url('img/index5.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image6 {
+    background: url('img/index6.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image7 {
+    background: url('img/index7.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image8 {
+    background: url('img/index8.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image9 {
+    background: url('img/index9.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image10 {
+    background: url('img/index10.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image11 {
+    background: url('img/index11.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image12 {
+    background: url('img/index12.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image13 {
+    background: url('img/index13.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image14 {
+    background: url('img/index14.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image15 {
+    background: url('img/index15.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el a {
+    text-decoration: none;
+    background: #8043a3;
+    padding: 8px 24px;
+    color: white;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .wrapper .left {
+        width: 100%;
+    }
+    .wrapper .right {
+        width: 100%;
+    }
+    .right .table .row .el a {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,254 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #f4f4f2;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left h2 {
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.left .links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.left .links .link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.left .links .link a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+
+}
+
+.left .links .link img {
+    width: 32px;
+    height: 32px;
+}
+
+.right h2 {
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.right .table {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.right .table .row {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.right .table .row .el {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+
+.right .table .row .el .image {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 37px;
+}
+
+.right .table .row .el .image1 {
+    background: url('img/app1.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image2 {
+    background: url('img/app2.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image3 {
+    background: url('img/app3.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image4 {
+    background: url('img/app4.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image5 {
+    background: url('img/app5.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image6 {
+    background: url('img/app6.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image7 {
+    background: url('img/app7.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image8 {
+    background: url('img/app8.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image9 {
+    background: url('img/app9.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image10 {
+    background: url('img/app10.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image11 {
+    background: url('img/app11.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image12 {
+    background: url('img/app12.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image13 {
+    background: url('img/app13.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image14 {
+    background: url('img/app14.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image15 {
+    background: url('img/app15.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image16 {
+    background: url('img/app16.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image17 {
+    background: url('img/app17.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image18 {
+    background: url('img/app18.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image19 {
+    background: url('img/app19.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image20 {
+    background: url('img/app20.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image21 {
+    background: url('img/app21.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image22 {
+    background: url('img/app22.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image23 {
+    background: url('img/app23.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el .image24 {
+    background: url('img/app24.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.right .table .row .el a {
+    text-decoration: none;
+    background: #8043a3;
+    padding: 8px 24px;
+    color: white;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .wrapper .left {
+        width: 100%;
+    }
+    .wrapper .right {
+        width: 100%;
+    }
+    .right .table .row .el a {
+        font-size: 12px;
+    }
+}
